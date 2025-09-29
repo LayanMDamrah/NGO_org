@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-yellow: #F2C94C;
+    --yellow-light: #FCEDC6;
+    --green-tertiary: #EFF7F2;
+    --black: #0B0706;
+    --primary-text: #1D2130;
+    --secondary-text: #525560;
+    --off-white: #EBF0F9;
+    --border-color: #E5E5E5;
+
+    --font-primary: "Roboto", sans-serif;
+    --font-logo: "Courgette", cursive;
+
+    --fs-home-heading: 64px;
+    --fs-h1: 56px;
+    --fs-h2: 48px;
+    --fs-h3: 28px;
+    --fs-h4: 20px;
+    --fs-h5: 14px;
+    --fs-h6: 12px;
+    --fs-paragraph: 16px;
+    --fs-paragraph-small: 14px;
+    --fs-logo: 21px;
+
+    --fw-bold: bold;
+}
+
+.primary-yellow {
+    color: var(--primary-yellow);
+}
+
+.yellow-light {
+    color: var(--yellow-light);
+}
+
+.green-tetriy {
+    color: var(--green-tertiary);
+}
+
+.black {
+    color: var(--black);
+}
+
+.primary-text {
+    color: var(--primary-text);
+}
+
+.secondary-text {
+    color: var(--secondary-text);
+}
+
+.off-white {
+    color: var(--off-white);
+}
+
+.border-color {
+    color: var(--border-color);
+}
+
+.home-heading {
+    font-size: var(--fs-home-heading);
+    font-family: var(--font-primary);
+    font-weight: var(--fw-bold);
+}
+
+.Heading-1 {
+    font-size: var(--fs-h1);
+    font-family: var(--font-primary);
+    font-weight: var(--fw-bold);
+}
+
+.Heading-2 {
+    font-size: var(--fs-h2);
+    font-family: var(--font-primary);
+    font-weight: var(--fw-bold);
+}
+
+.Heading-3 {
+    font-size: var(--fs-h3);
+    font-family: var(--font-primary);
+    font-weight: var(--fw-bold);
+}
+
+.Heading-4 {
+    font-size: var(--fs-h4);
+    font-family: var(--font-primary);
+    font-weight: var(--fw-bold);
+}
+
+.Heading-5 {
+    font-size: var(--fs-h5);
+    font-family: var(--font-primary);
+    font-weight: var(--fw-bold);
+}
+
+.Heading-6 {
+    font-size: var(--fs-h6);
+    font-family: var(--font-primary);
+    font-weight: var(--fw-bold);
+}
+
+.paragraph {
+    font-size: var(--fs-paragraph);
+    font-family: var(--font-primary);
+}
+
+.paragraph-small {
+    font-size: var(--fs-paragraph-small);
+    font-family: var(--font-primary);
+}
+
+.i-font {
+    font-family: var(--font-logo);
+    font-size: var(--fs-logo);
+    font-weight: var(--fw-bold);
+}
+
+.navbar-nav .nav-link:hover {
+  color: var(--primary-yellow); 
+}
+
+.btn-primary-text {
+  background-color: var(--primary-text);
+  color: #fff; 
+  font-weight: 500;
+}
+
+
+.btn-primary-text:hover {
+  background-color: #d4ac2c; 
+}
