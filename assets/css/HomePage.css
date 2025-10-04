@@ -175,3 +175,54 @@
     transform: scale(0.8);
   }
 }
+
+/* Know About us */
+.line-text {
+  display: flex;
+  align-items: center;
+  gap: 20px; 
+}
+
+.line-text .line {
+  flex-shrink: 0;
+  width: 150px;     
+  height: 3px;      
+  background-color: var(--primary-text);
+  margin-right: 10px;
+}
+
+.custum-ms{
+    margin-left: 80px;
+    width: 100%;
+}
+
+
+.btn-info {
+  background-color:var(--primary-yellow);
+  font-weight: 500;
+  width: 160px;
+  padding: 15px 32px;
+}
+
+.btn-info:hover {
+  background-color: var(--primary-text);
+  color: white;
+}
+
+
+@media (max-width: 768px) {
+    .Heading-2{
+        font-size: 40px; 
+    }
+
+
+}
+
+@media (max-width: 510px) {
+    .Heading-2 {
+        font-size: 30px; 
+    }
+    .about-img{
+        scale: .9;
+    }
+}
