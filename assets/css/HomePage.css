@@ -182,9 +182,9 @@
 }
 
 @media screen and (max-height: 400px) {
-  .hero-buttom {
-    display: none !important;
-  }
+    .hero-buttom {
+        display: none !important;
+    }
 }
 
 
@@ -249,13 +249,14 @@
     background-color: var(--border-color);
     margin-right: 10px;
 }
+
 @media screen and (max-width: 995px) {
     .Heading-4 {
         font-size: 20px;
     }
 
     .support-line {
-        width: 90vb;
+        width: 60vb;
     }
 }
 
@@ -275,28 +276,78 @@
     }
 
     .support-line {
-        width: 30vb;
+        width: 20vb;
     }
 }
 
 
 /* What we do */
-.what-we-do{
+.what-we-do {
     background-color: var(--yellow-light);
 }
 
-@media screen and (max-width: 1599px) 
- {
-    .what-we-do-img{
-    scale: .8;
-  }
-    
+@media screen and (max-width: 1599px) {
+    .what-we-do-img {
+        scale: .8;
+    }
+
 }
+
 @media screen and (max-width: 359px) {
-  .what-we-do .line {
-    width: 100px;
-  }
-  .what-we-do-img{
-    scale: .7;
-  }
+    .what-we-do .line {
+        width: 100px;
+    }
+
+    .what-we-do-img {
+        scale: .7;
+    }
+}
+
+/* chart */
+.chart {
+    background-color: var(--black);
+}
+
+.statistic .small-box {
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.teel {
+    background-color: #BEF3C0;
+}
+
+.perple {
+    background-color: #AC94F1;
+}
+
+.creem {
+    background-color: #FFF0CA;
+}
+
+.yellow-ver3 {
+    background-color: #F9CF64;
+}
+
+.pink {
+    background-color: #F38FBF;
+}
+
+@media (max-width: 1999px) {
+    .Heading-2 {
+        font-size: 30px;
+    }
+}
+
+.small-box {
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+
+.chart-img {
+    max-width: 100%;
+   
 }
