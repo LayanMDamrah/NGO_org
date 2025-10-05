@@ -278,3 +278,25 @@
         width: 30vb;
     }
 }
+
+
+/* What we do */
+.what-we-do{
+    background-color: var(--yellow-light);
+}
+
+@media screen and (max-width: 1599px) 
+ {
+    .what-we-do-img{
+    scale: .8;
+  }
+    
+}
+@media screen and (max-width: 359px) {
+  .what-we-do .line {
+    width: 100px;
+  }
+  .what-we-do-img{
+    scale: .7;
+  }
+}
