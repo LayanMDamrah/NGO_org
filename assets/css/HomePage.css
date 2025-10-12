@@ -449,3 +449,54 @@
     font-size: 1rem;
   }
 }
+
+/* Our Events */
+.our-supporters .support-line{
+    width: 60%;
+}
+.card{
+    background-color: var(--primary-yellow);
+}
+.date {
+  margin-left: 0;
+  margin-top: 0;
+  text-align: start;
+}
+
+.date p {
+  margin: 0; 
+}
+.icon-arrow{
+    width: 100%;
+    height: 100%;
+
+}
+
+@media screen and (max-width: 568px) {
+    .Our-Events .Heading-1 {
+        font-size: 24px; 
+    }
+    
+    .Our-Events .line{
+        width: 100px;
+    }
+
+    .Our-Events .Heading-3 {
+        font-size: 16px;
+    }
+
+
+    .Our-Events .Heading-4 {
+        font-size: 14px; 
+    }
+
+    .Our-Events .icon-arrow img {
+        width: 40px; 
+        height: 40px;
+    }
+
+   
+    .Our-Events .card {
+        padding: 1rem;
+    }
+}
