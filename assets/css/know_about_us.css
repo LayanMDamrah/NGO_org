@@ -1,24 +1,178 @@
-
 @media screen and (max-width :757px) {
-      .Know-about-us .Heading-4{
+    .Know-about-us .Heading-4 {
         font-size: 18px;
-    
+
     }
-    .Know-about-us .Heading-1{
+
+    .Know-about-us .Heading-1 {
         font-size: 40px;
-    
+
+    }
+}
+
+.Know-about-us-custom-p {
+    padding-bottom: 260px;
+}
+
+
+@media screen and (max-width :349px) {
+    .Know-about-us .Heading-4 {
+        font-size: 13px;
+
+    }
+
+    .Know-about-us .Heading-1 {
+        font-size: 30px;
+
     }
 }
 
 
 
-@media screen and (max-width :349px) {
-      .Know-about-us .Heading-4{
-        font-size: 13px;
-    
+
+/* Know-about-us-paner */
+.Know-about-us-paner {
+    background-color: var(--yellow-light);
+}
+
+.Know-about-us-paner {
+    padding-top: 98px;
+    padding-bottom: 30px;
+
+}
+
+.paner-img {
+    top: -240px;
+    left: 50%;
+    transform: translateX(-50%);
+    transform-origin: center center;
+    width: 60%;
+    height: auto;
+    z-index: 2;
+    transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 1920px) {
+    .paner-img {
+        width: 57%;
+        top: -220px;
+        left: 50%;
+        transform: translateX(-50%);
     }
-    .Know-about-us .Heading-1{
-        font-size: 30px;
-    
+
+    .Know-about-us {
+        padding-bottom: 200px;
+    }
+
+    .Know-about-us-paner {
+        padding-top: 100px;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .paner-img {
+     width: 50%;
+        top: -146px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .Know-about-us {
+        padding-bottom: 200px;
+    }
+
+    .Know-about-us-paner {
+        padding-top: 100px;
+    }
+}
+@media screen and (max-width: 1440px) {
+    .paner-img {
+            width: 48%;
+        top: -136px;
+    }
+
+    .Know-about-us {
+        padding-bottom: 140px;
+    }
+
+    .Know-about-us-paner {
+        padding-top: 80px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .paner-img {
+              width: 50%;
+        top: -80px;
+    }
+
+    .Know-about-us {
+        padding-bottom: 100px;
+    }
+
+    .Know-about-us-paner {
+        padding-top: 60px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .paner-img {
+       width: 45%;
+        top: -79px;
+    }
+
+    .Know-about-us {
+        padding-bottom: 80px;
+    }
+
+    .Know-about-us-paner {
+        padding-top: 50px;
+    }
+   
+}
+
+@media screen and (max-width: 768px) {
+    .paner-img {
+                  width: 55%;
+        top: -53px;
+    }
+
+    .Know-about-us {
+        padding-bottom: 85px;
+    }
+
+    .Know-about-us-paner {
+        padding-top: 40px;
+    }
+}
+
+/* الموبايل الصغير جدًا */
+@media screen and (max-width: 576px) {
+    .paner-img {
+                width: 52%;
+        top: -9px;
+    }
+
+    .Know-about-us {
+        padding-bottom: 30px;
+    }
+
+    .Know-about-us-paner {
+        padding-top: 30px;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .paner-img {
+              width: 62%;
+        top: -1px;
+    }
+
+    .Know-about-us {
+        padding-bottom: 5px;
+    }
+
+    .Know-about-us-paner {
+        padding-top: 30px;
     }
 }
