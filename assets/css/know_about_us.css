@@ -178,6 +178,13 @@
 }
 
 /* OUR JOURNEY  */
-.our-journey .container{
+.our-journey .container {
     background-color: var(--primary-yellow);
+}
+
+/* Meet our team  */
+
+
+.card-team {
+    background-color: white
 }
