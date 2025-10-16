@@ -71,7 +71,7 @@
 
 @media screen and (max-width: 1600px) {
     .paner-img {
-     width: 50%;
+        width: 50%;
         top: -146px;
         left: 50%;
         transform: translateX(-50%);
@@ -85,9 +85,10 @@
         padding-top: 100px;
     }
 }
+
 @media screen and (max-width: 1440px) {
     .paner-img {
-            width: 48%;
+        width: 48%;
         top: -136px;
     }
 
@@ -102,7 +103,7 @@
 
 @media screen and (max-width: 1199px) {
     .paner-img {
-              width: 50%;
+        width: 50%;
         top: -80px;
     }
 
@@ -117,7 +118,7 @@
 
 @media screen and (max-width: 991px) {
     .paner-img {
-       width: 45%;
+        width: 45%;
         top: -79px;
     }
 
@@ -128,12 +129,12 @@
     .Know-about-us-paner {
         padding-top: 50px;
     }
-   
+
 }
 
 @media screen and (max-width: 768px) {
     .paner-img {
-                  width: 55%;
+        width: 55%;
         top: -53px;
     }
 
@@ -148,7 +149,7 @@
 
 @media screen and (max-width: 576px) {
     .paner-img {
-                width: 52%;
+        width: 52%;
         top: -9px;
     }
 
@@ -163,7 +164,7 @@
 
 @media screen and (max-width: 415px) {
     .paner-img {
-              width: 62%;
+        width: 62%;
         top: -1px;
     }
 
@@ -174,4 +175,9 @@
     .Know-about-us-paner {
         padding-top: 30px;
     }
+}
+
+/* OUR JOURNEY  */
+.our-journey .container{
+    background-color: var(--primary-yellow);
 }
