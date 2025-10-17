@@ -1,0 +1,39 @@
+.donation {
+    background-color: var(--yellow-light);
+}
+
+.custom-nav .nav-link {
+
+    position: relative;
+    padding: 0.5rem 0;
+    text-decoration: none;
+}
+
+.custom-nav .nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 3px;
+    background-color: var(--primary-yellow);
+    transition: width 0.3s;
+}
+
+.custom-nav .nav-link {
+    color: v;
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+    transition: border-color 0.3s;
+}
+
+.nav-item:hover .nav-link {
+    color: var(--primary-yellow);
+}
+
+.custom-nav .nav-link:focus,
+.custom-nav .nav-link:active {
+    border-bottom: 3px solid var(--primary-yellow);
+    color: var(--primary-yellow);
+
+}
