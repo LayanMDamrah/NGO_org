@@ -1,0 +1,10 @@
+.Contact-us{
+    background-color: var(--yellow-light);
+}
+
+@media screen and (max-width:1203px) {
+    .dis{
+        display: block;
+    }
+    
+}
