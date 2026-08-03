@@ -23,3 +23,5 @@ toggleBtn.addEventListener("click", () => {
         icon.classList.add("fa-moon");
     }
 });
+
+

@@ -624,3 +624,60 @@ body.dark-mode #theme-toggle{
 body.dark-mode #backToTop {
     color: black;
 }
+
+/* Donate Modal */
+
+.donate-box {
+    background-color: white;
+    border-radius: 20px;
+    border: none;
+    overflow: hidden;
+}
+
+.donate-head {
+    border-bottom: 1px solid var(--border-color);
+    padding: 20px 25px;
+}
+
+.donate-head .modal-title {
+    color: var(--primary-text);
+    font-weight: bold;
+}
+
+.donate-body {
+    color: var(--secondary-text);
+    padding: 25px;
+    line-height: 1.6;
+}
+
+.donate-foot {
+    border: none;
+    padding: 20px 25px;
+}
+
+
+.donate-btn {
+    background-color: var(--primary-yellow);
+    color: var(--black);
+    border-radius: 8px;
+    padding: 12px 30px;
+    font-weight: 600;
+}
+
+.donate-btn:hover {
+    background-color: var(--primary-text);
+    color: white;
+}
+
+
+/* Dark mode */
+
+body.dark-mode .donate-box {
+    background-color: #181818;
+}
+
+body.dark-mode .donate-btn {
+    background-color: var(--primary-yellow);
+    color: #121212;
+}
+
