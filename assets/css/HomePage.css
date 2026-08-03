@@ -522,3 +522,72 @@
     color: white !important;
     background-color: black;
 }
+
+
+body.dark-mode{
+    --primary-yellow: #F2C94C;
+    --yellow-light: #1f1f1f;
+    --green-tertiary: #1a1a1a;
+    --black: #ffffff;
+    --primary-text: #f5f5f5;
+    --secondary-text: #cfcfcf;
+    --off-white: #1b1b1b;
+    --border-color: #444;
+
+    background-color: #121212;
+    color: var(--primary-text);
+}
+
+body.dark-mode .navbar,
+body.dark-mode .bg-white{
+    background-color: #181818 !important;
+}
+
+body.dark-mode .card{
+    background-color: #2a2a2a !important;
+    color: var(--primary-text);
+}
+
+body.dark-mode .btn-hero{
+    background-color: #2a2a2a;
+    color: white;
+}
+
+body.dark-mode .btn-primary-text{
+    background-color: #F2C94C;
+    color: #121212;
+}
+
+body.dark-mode .footer{
+    background-color: #0d0d0d;
+}
+
+body.dark-mode input,
+body.dark-mode textarea{
+    background-color: #2a2a2a !important;
+    color: white !important;
+    border-color: #555;
+}
+
+body.dark-mode .custom-input{
+    background-color: #2a2a2a !important;
+}
+
+#theme-toggle{
+    width:45px;
+    height:45px;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    transition:.3s;
+}
+
+#theme-toggle i{
+    font-size:18px;
+}
+
+body.dark-mode #theme-toggle{
+    color:white;
+    border-color:white;
+}
